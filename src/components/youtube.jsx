@@ -5,3 +5,4 @@ function Youtube(){
         <p>Test Video</p>
     )
 }
+export default Youtube
