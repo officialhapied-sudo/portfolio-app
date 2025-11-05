@@ -1,10 +1,11 @@
+import { Route, Routes } from "react-router-dom";
 import Youtube from "./components/youtube";
+import Aboutme from "./Pages/about-me";
 function App(){
   return(
-    <div>
-    <h1>Portfolio in development</h1>
-    <Youtube />
-    </div>
+    <Routes>
+      <Route path="/" element={<Aboutme />} />
+    </Routes>
     
   )
 }
