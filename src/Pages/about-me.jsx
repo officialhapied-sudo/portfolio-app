@@ -1,6 +1,9 @@
+import Logo from "../components/about-melogo"
 function Aboutme(){
     return(
-        <h1>About me</h1>
+        <div>
+            <Logo />
+        </div>
     )
 }
 export default Aboutme
